@@ -43,13 +43,13 @@ def setup():
             'Development Status :: 2 - Pre-Alpha',
             'Environment :: Console',
             'Intended Audience :: Developers',
-            {%- if cookiecutter.license == 'MIT' -%}
+            {% if cookiecutter.license == 'MIT' -%}
             'License :: OSI Approved :: MIT License',
             {%- elif cookiecutter.license == 'Apache 2.0' -%}
             'License :: OSI Approved :: Apache Software License',
             {%- elif cookiecutter.license == 'GPLv3' -%}
             'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
-            {%- endif -%}
+            {%- endif %}
             'Operating System :: MacOS',
             'Operating System :: Microsoft :: Windows',
             'Operating System :: POSIX :: Linux',
