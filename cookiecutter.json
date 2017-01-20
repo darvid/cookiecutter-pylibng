@@ -1,0 +1,19 @@
+{
+    "full_name": "David Gidwani",
+    "email": "david.gidwani@gmail.com",
+    "website": "https://github.com/darvid",
+    "github_username": "darvid",
+    "project_name": "Frobnicator",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ','-') }}",
+    "package_name": "{{ cookiecutter.project_name|lower|replace(' ','_')|replace('-','_') }}",
+    "distribution_name": "{{ cookiecutter.package_name|replace('_','-') }}",
+    "project_short_description": "A frobnicator for flux capacitors.",
+    "year": "2017",
+    "license": [
+        "MIT",
+        "Apache 2.0",
+        "GPLv3"
+    ],
+    "sphinx_theme": "material_design",
+    "sphinx_theme_distribution": "sphinx-md-theme"
+}
