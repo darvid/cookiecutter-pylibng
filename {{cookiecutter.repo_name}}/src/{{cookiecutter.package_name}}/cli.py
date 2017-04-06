@@ -1,4 +1,6 @@
 """Provides the {{cookiecutter.package_name}} command line interface."""
+from __future__ import absolute_import
+
 import click
 
 
