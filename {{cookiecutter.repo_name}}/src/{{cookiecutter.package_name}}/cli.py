@@ -8,4 +8,4 @@ import click
 @click.pass_context
 def main(ctx):
     # type: (click.Context) -> None
-    """{{cookiecutter.package_name}}: Frobnicates flux capacitors."""
+    """{{cookiecutter.package_name}}: {{cookiecutter.project_short_description}}"""
