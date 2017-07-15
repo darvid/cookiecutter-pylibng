@@ -4,6 +4,6 @@
 -r main.in
 --index-url https://pypi.python.org/simple
 future==0.16.0
-pytest-cov==2.4.0
-pytest-mock==1.5.0
+pytest-cov==2.5.1
+pytest-mock==1.6.0
 responses==0.5.1

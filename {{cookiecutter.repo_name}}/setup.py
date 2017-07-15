@@ -69,7 +69,6 @@ def setup():
             'Topic :: Utilities',
         ],
         description=__doc__,
-        discover_requirements=True,
         entry_points={
             'console_scripts': [
                 '{{cookiecutter.package_name}} = {{cookiecutter.package_name}}.cli:main',
